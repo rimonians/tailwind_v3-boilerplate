@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-project",
+  "version": "1.0.0",
+  "description": "Tailwind CSS Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
+  },
+  "author": "Rimon Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
